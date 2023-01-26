@@ -1,0 +1,94 @@
+.sgn{
+    background-color:  hsl(180, 66%, 49%);
+    border-radius: 28px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    padding: 6px;
+    font-size: 10;
+    color: white;
+    font-weight: bold;
+}
+
+
+ 
+.header{
+    background-color: rgb(255, 255, 255);
+    width: 93%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+.login{
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    margin-right: 17px;
+    color: gray;
+}
+.branco{
+    color: gray;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+hr{
+    display: none;
+}
+
+.branco:hover{
+    color: rgb(73, 72, 72);
+} 
+
+
+@media screen and (max-width: 991px){
+    .caixa{
+        height: 270px;
+        background-color:hsl(257, 27%, 26%);
+        border-radius: 10px;
+        margin-top: 15px; 
+        
+    }
+    .lista{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .formul{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .login{
+        background-color:hsl(257, 27%, 26%) ;
+        color: white;
+        margin-left: 17px;
+        margin-top: 40px;
+    }
+    .nav-link{
+        color: white;
+    }
+    .sgn{
+        margin-top:13px;
+        width: 80%;
+        margin-left: 20px;
+    }
+    .branco{
+        position: relative;
+        top: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .branco:hover{
+        color: rgb(221, 217, 217);
+    }
+}

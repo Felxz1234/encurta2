@@ -1,0 +1,115 @@
+
+
+.body2{
+    background-color:hsl(0, 0%, 75%)  ;
+    margin-top: 80px;
+    
+    
+}
+
+@media screen and (max-width:383px){
+    .body2{
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width:427px){
+    .track{
+        font-size: 10px;
+    }
+}
+
+
+
+.caixona{
+    display: flex;
+    justify-content: center;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.item1{
+    background-color: white;
+    margin-right:20px ;
+    
+    
+}
+
+.item2{
+    background-color: white;
+    margin-top: 40px;
+    margin-right:20px ;
+    
+}
+
+.url{
+    color: black;
+    font-weight: bold;
+}
+
+.item3{
+    background-color: white;
+    margin-top: 80px;
+    margin-right:20px ;
+}
+
+.caixona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+}
+
+svg{
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    border-radius:20px ;
+    background-color:hsl(257, 27%, 26%) ;
+}
+
+
+@media screen and (max-width:619px){
+    .icones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+        
+    }
+    .item1{
+        border-radius: 10px;
+    }
+    .item2{
+        border-radius: 10px;
+        
+    }
+    .item3{
+        margin-top: 40px;
+        border-radius: 10px;
+        
+    }
+}
